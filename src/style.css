@@ -1,0 +1,44 @@
+body{
+    background-color: #c2eef1;
+    font-family: Arial, sans-serif;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius: 5px;
+  background-color: #55c5f1;
+  width: 200px;
+  margin-top: 20px;
+}
+
+#kartyak{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+#name-label{
+    font-size: 25px; 
+    font-weight: bold;
+}
+
+#name{
+    font-size: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 5px;
+}
+
+#add{
+    font-size: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 5px;
+    background-color: #55c5f1;
+}
+
+.container{
+    padding: 10px;
+}

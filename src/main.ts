@@ -22,12 +22,14 @@ try{
   patkanyLista.push(patkany);
 
   const card = document.createElement('div');
-  card.classList.add('kartya');
+  card.classList.add('card');
 
   card.innerHTML = `
-  <h2>${patkany.getName()}</h2>
-  <p>sebzés: ${patkany.getAtk()}</p>
-  <p>életerő: ${patkany.getHp()}</p>
+  <div class="container">
+  <h3>${patkany.getName()}</h3>
+  <p>sebzés: ⚔️${patkany.getAtk()}</p>
+  <p>életerő: ❤️${patkany.getHp()}</p>
+  </div>
   `;
   kartyak?.appendChild(card);
 
